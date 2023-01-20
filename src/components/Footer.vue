@@ -166,6 +166,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="mymap"
         ></iframe>
       </div>
     </div>
@@ -184,5 +185,10 @@ export default {
 }
 html, body{
   overflow-x: hidden;
+}
+@media only screen and (max-width:1290px) {
+  .mymap{
+    width: 240px
+  }
 }
 </style>

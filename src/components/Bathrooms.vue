@@ -9,7 +9,7 @@
       <div class="carousel-item active">
         <img
           src="../assets/bathrooms-cover.jpg"
-          class="d-block w-100 opacity-50"
+          class="d-block w-100 opacity-50 serviceimg"
           alt="..."
         />
         <div class="d-lg-block">
@@ -17,10 +17,9 @@
             class="
               text-black
               fw-bold
-              position-absolute
               translate-middle
               start-50
-              bottom-50
+              text-center
               display-5
               heading
             "

@@ -44,15 +44,20 @@ export default {
   color: #004784;
 }
 @media only screen and (min-width: 1400px) {
-  .card {
+  .servicecard {
     height: 80%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  .card {
+  .servicecard {
     height: 90%;
   }
 }
+/* @media only screen and (max-width: 992px) {
+  .servicecard{
+    box-shadow: 4px 4px 10px rgb(103, 103, 103);
+  }
+} */
 </style>
 
 <template>
@@ -95,13 +100,13 @@ export default {
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/img1.jpg" class="d-block w-100" alt="..." />
+        <img src="../assets/img1.jpg" class="d-block w-100 serviceimg" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="../assets/img2.jpg" class="d-block w-100" alt="..." />
+        <img src="../assets/img2.jpg" class="d-block w-100 serviceimg" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="../assets/img3.jpg" class="d-block w-100" alt="..." />
+        <img src="../assets/img3.jpg" class="d-block w-100 serviceimg" alt="..." />
       </div>
     </div>
   </div>
@@ -153,7 +158,7 @@ export default {
             <div class="carousel-item active">
               <div class="row g-0">
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card1.jpg"
                       class="card-img-top"
@@ -176,7 +181,7 @@ export default {
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card2.jpg"
                       class="card-img-top"
@@ -199,7 +204,7 @@ export default {
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card3.jpg"
                       class="card-img-top"
@@ -226,7 +231,7 @@ export default {
             <div class="carousel-item">
               <div class="row g-3">
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card4.jpg"
                       class="card-img-top"
@@ -250,7 +255,7 @@ export default {
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card5.jpg"
                       class="card-img-top"
@@ -273,7 +278,7 @@ export default {
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card" style="width: 90%">
+                  <div class="card servicecard" style="width: 90%">
                     <img
                       src="../assets/card6.jpg"
                       class="card-img-top"
@@ -308,6 +313,7 @@ export default {
               d-flex
               justify-content-center
               align-items-center
+              d-block d-lg-none
             "
           >
             <font-awesome-icon
@@ -475,7 +481,7 @@ export default {
               </div>
             </div>
           </div>
-          <div class="col-2 d-flex justify-content-center align-items-center">
+          <div class="col-2 d-flex justify-content-center align-items-center d-block d-lg-none">
           <font-awesome-icon
             icon="fa-solid fa-caret-square-right"
             class="fs-1 ms-2 myicon"
