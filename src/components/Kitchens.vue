@@ -12,7 +12,7 @@
           class="d-block w-100 opacity-50"
           alt="..."
         />
-        <div class="d-none d-md-block">
+        <div class="d-lg-block">
           <h1
             class="
               text-black
@@ -21,7 +21,7 @@
               translate-middle
               start-50
               bottom-50
-              display-4
+              display-5
               heading
             "
           >

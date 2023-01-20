@@ -1,14 +1,5 @@
 <template>
   <Navbar />
-  <!-- <div
-  :style="{
-      'background-image': 'url(require(~@/assets/about.jpg))',
-      height:'90vh'
-    }"
-    class="d-flex justify-content-center align-items-center"
-  >
-    <div class="d-flex justify-content-center align-items-center fs-1 fw-bold">ABOUT US</div>
-  </div> -->
   <div
     id="carouselExampleSlidesOnly"
     class="carousel slide"
@@ -21,7 +12,7 @@
           class="d-block w-100 opacity-50"
           alt="..."
         />
-        <div class="d-none d-md-block">
+        <div class="d-lg-block">
           <h1
             class="
               text-black
@@ -30,7 +21,7 @@
               translate-middle
               start-50
               bottom-50
-              display-4
+              display-5
               heading
             "
           >
@@ -40,7 +31,7 @@
       </div>
     </div>
   </div>
-  <div class="container my-5 py-5">
+  <div class="container my-4 my-lg-5 py-lg-5">
     <Header title="WHAT WE DO" />
     <p class="">
       Just one of the reasons why so many clients choose our construction
@@ -61,8 +52,8 @@
     </p>
   </div>
   <div class="d-flex justify-content-center">
-    <div class="container row g-5 mb-5 pb-5">
-      <div class="col-6">
+    <div class="container row g-lg-5 mb-lg-5 pb-lg-5 mb-4">
+      <div class="col-12 col-lg-6 mt-lg-0 mt-4">
         <img src="../assets/about1.jpg" alt="" class="" style="width: 100%" />
         <div class="mt-4">
           <Header title="COMPLETE BUILDING SOLUTIONS" class="mt-4" />
@@ -71,7 +62,7 @@
             this is mainly due to having to arrange different contractors for
             specific tasks such as groundwork, plumbing, roofing etc.
           </p>
-          <p class="mt-4">
+          <p class="mt-2">
             Through many years in the construction industry, we have built a
             highly skilled team whose expertise span across each and every
             building trade. This means we can efficiently complete your whole
@@ -80,7 +71,7 @@
           </p>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 mt-lg-0 mt-4">
         <img src="../assets/about2.jpg" alt="" style="width: 100%" />
         <div class="mt-4">
           <Header title="NO JOB TOO BIG OR SMALL" />

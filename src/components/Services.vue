@@ -12,7 +12,7 @@
           class="d-block w-100 opacity-50"
           alt="..."
         />
-        <div class="d-none d-md-block">
+        <div class="d-lg-block">
           <h1
             class="
               text-black
@@ -21,7 +21,7 @@
               translate-middle
               start-50
               bottom-50
-              display-4
+              display-5
               heading
             "
           >
@@ -31,9 +31,9 @@
       </div>
     </div>
   </div>
-  <div class="container my-5 pt-5">
+  <div class="container my-5">
     <div class="row g-5">
-      <div class="col">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/bathrooms.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center">
@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/kitchens.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center">
@@ -58,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/groundworks.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center">
@@ -70,9 +70,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row g-5">
-      <div class="col">
+      <div class="col-12 col-lg-4 col-md-6 d-lg-none">
         <div class="card m-1" style="">
           <img src="../assets/new-builds.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center px-4">
@@ -84,7 +82,21 @@
           </div>
         </div>
       </div>
-      <div class="col">
+    </div>
+    <div class="row g-5 mt-2">
+      <div class="col-12 col-lg-4 col-md-6 d-none d-lg-block">
+        <div class="card m-1" style="">
+          <img src="../assets/new-builds.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-center px-4">
+            <h5 class="card-title">NEW BUILDS</h5>
+            <p class="card-text">
+                With the ever increasing demand for housing, new builds are becoming more and more common and as such, our ability within this sector is being called upon more and more.
+            </p>
+            <RouterLink to="/services/new-builds" class="btn btn-primary">Service Details</RouterLink>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/builders.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center px-4">
@@ -96,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/loft-conversions.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center px-4">
@@ -110,8 +122,8 @@
         </div>
       </div>
     </div>
-    <div class="row g-5">
-      <div class="col-4">
+    <div class="row g-5 mt-2">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/basements.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center px-4">
@@ -123,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-lg-4 col-md-6">
         <div class="card m-1" style="">
           <img src="../assets/extensions.jpg" class="card-img-top" alt="..." />
           <div class="card-body text-center px-4">

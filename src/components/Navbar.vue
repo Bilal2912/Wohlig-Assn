@@ -1,10 +1,20 @@
 <template>
-  <nav class="navbar sticky-top navbar-expand-md bg-primary navbar-light justify-content-center" id="nav">
+  <nav
+    class="
+      navbar
+      sticky-top
+      navbar-expand-md
+      bg-primary
+      navbar-light
+      justify-content-center
+    "
+    id="nav"
+  >
     <div class="container-fluid">
       <RouterLink class="mx-3 navbar-brand w-50" to="/">
         <svg
-          width="80"
-          height="80"
+          width="70"
+          height="70"
           viewBox="0 0 161 130"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +34,7 @@
         </svg>
       </RouterLink>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler bg-white"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -45,14 +55,13 @@
             >
           </li>
           <li class="nav-item fs-5 fw-semibold">
-            <RouterLink
-              class="nav-link text-white text-center"
-              to="/about"
+            <RouterLink class="nav-link text-white text-center" to="/about"
               >ABOUT US</RouterLink
             >
           </li>
           <li class="nav-item dropdown fs-5 fw-semibold">
-            <RouterLink 
+            <!-- <RouterLink 
+            @click="openServices"
               class="nav-link dropdown-toggle text-white text-center"
               to="/services"
               id="navbarDropdown"
@@ -62,6 +71,7 @@
             >
               SERVICES
             </RouterLink>
+
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
                 <RouterLink class="dropdown-item" to="/services/basements"
@@ -99,12 +109,73 @@
                   >NEW BUILDS</RouterLink
                 >
               </li>
+            </ul> -->
+            <div class="d-flex justify-content-center">
+              <RouterLink
+                class="nav-link text-white text-center"
+                to="/services"
+                id="navbarDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                SERVICES
+              </RouterLink>
+              <button
+                type="button"
+                class="btn text-white dropdown-toggle dropdown-toggle-split border-0"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <RouterLink class="dropdown-item" to="/services/basements"
+                  >BASEMENTS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/bathrooms"
+                  >BATHROOMS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/builders"
+                  >BUILDERS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/extensions"
+                  >EXTENSIONS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/groundworks"
+                  >GROUNDWORKS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/kitchens"
+                  >KITCHENS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/services/loft-conversions"
+                  >LOFT CONVERSIONS</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/services/new-builds"
+                  >NEW BUILDS</RouterLink
+                >
+              </li>
             </ul>
           </li>
           <li class="nav-item fs-5 fw-semibold">
-            <RouterLink
-              class="nav-link text-white text-center"
-              to="/contact"
+            <RouterLink class="nav-link text-white text-center" to="/contact"
               >CONTACT US</RouterLink
             >
           </li>
@@ -238,4 +309,5 @@ export default {
 #nav a.router-link-exact-active {
   color: black !important;
 }
+
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="row bg-primary pb-4" style="width: 99.7vw">
-    <div class="col-2 align-items-center d-flex flex-column">
+  <div class="row bg-primary pb-4">
+    <div class="col-12 col-lg-2 align-items-center d-flex flex-column">
       <svg
         width="80"
         height="80"
@@ -38,10 +38,10 @@
         >Contact</RouterLink
       >
     </div>
-    <div class="col-3 d-flex flex-column align-items-center">
+    <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
       <h4
         class="
-          fw-normal
+          fw-bold
           w-100
           text-center
           py-3
@@ -92,10 +92,10 @@
         >New Builds</RouterLink
       >
     </div>
-    <div class="col-4">
+    <div class="col-12 col-lg-4">
       <h4
         class="
-          fw-normal
+          fw-bold
           w-100
           text-center
           py-3
@@ -119,7 +119,7 @@
             <span class="fw-normal text-black fs-5">Bannerman Build Ltd,</span>
           </div>
         </div>
-        <div>
+        <div class="mt-2">
           <h5 class="fw-normal text-black">20 Newport Street,</h5>
         </div>
         <div>
@@ -143,10 +143,10 @@
         </div>
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-12 col-lg-3">
       <h4
         class="
-          fw-normal
+          fw-bold
           w-100
           text-center
           py-3
@@ -181,5 +181,8 @@ export default {
 <style>
 .mail:hover {
   text-decoration: underline !important;
+}
+html, body{
+  overflow-x: hidden;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="mb-4">
-        <h2 class="fw-normal">{{ title }}</h2>
+        <h2 class="fw-normal fs-4">{{ title }}</h2>
     </div>
     <!-- <div class="container bg-black text-white rounded-pill w-25 h-25">He</div> -->
     <div class="progress bg-white mb-2">

@@ -1,6 +1,6 @@
 <template>
-    <Navbar/>
-    <div
+  <Navbar />
+  <div
     id="carouselExampleSlidesOnly"
     class="carousel slide"
     data-bs-ride="carousel"
@@ -12,7 +12,7 @@
           class="d-block w-100 opacity-50"
           alt="..."
         />
-        <div class="d-none d-md-block">
+        <div class="d-lg-block">
           <h1
             class="
               text-black
@@ -21,7 +21,7 @@
               translate-middle
               start-50
               bottom-50
-              display-4
+              display-5
               heading
             "
           >
@@ -31,54 +31,77 @@
       </div>
     </div>
   </div>
-  <div class="mt-5 bg-secondary d-flex align-items-center flex-column bg-opacity-10">
+  <div
+    class="
+      mt-5
+      bg-secondary
+      d-flex
+      align-items-center
+      flex-column
+      bg-opacity-10
+    "
+  >
     <div class="container d-flex justify-content-center">
-        <span class="fs-3 text-center w-75 pt-4 pb-5 border-bottom border-dark">Call to request an estimate or for general enquiries. We look forward to hearing from you!
-        </span>
+      <span class="fs-4 text-center w-75 pt-4 pb-5 border-bottom border-dark"
+        >Call to request an estimate or for general enquiries. We look forward
+        to hearing from you!
+      </span>
     </div>
     <div class="container row mt-4 mb-5">
-        <div class="col d-flex flex-column align-items-center">
-            <div>
-                <div>
-                  <font-awesome-icon
-            icon="fa-solid fa-location-dot"
-            class="me-1"
-          />
-                    <span class="fw-bold">Address</span>
-                </div>
-                <div>
-                    <span class="">Bannerman Build Ltd,</span>
-                </div>
-                <div>
-                    <span class="">20 Newport Street,</span>
-                </div>
-                <div>
-                    <span class="">Wolverhampton WV10 9AQ</span>
-                </div>
-            </div>
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-start align-items-lg-center px-5">
+        <div>
+          <div>
+            <font-awesome-icon icon="fa-solid fa-location-dot" class="me-1" />
+            <span class="fw-bold">Address</span>
+          </div>
+          <div>
+            <span class="">Bannerman Build Ltd,</span>
+          </div>
+          <div>
+            <span class="">20 Newport Street,</span>
+          </div>
+          <div>
+            <span class="">Wolverhampton WV10 9AQ</span>
+          </div>
         </div>
-        <div class="col">
-            <div>
-              <font-awesome-icon icon="fa-solid fa-phone" class="me-1" />
-                <span class=""><span class="fw-bold">Phone:</span> 07454 757 624</span>
-            </div>
-            <div class="mt-3">
-              <font-awesome-icon icon="fa-solid fa-envelope" class="me-1" />
-                <span class="fw-bold">Email: </span> 
-                <a href="#" class="text-decoration-none mail">info.bannermanbuildco.uk</a>
-            </div>
+      </div>
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-start align-items-lg-center px-5 mt-3 mt-lg-0">
+        <div>
+          <div>
+            <font-awesome-icon icon="fa-solid fa-phone" class="me-1" />
+            <span class=""
+              ><span class="fw-bold">Phone:</span> 07454 757 624</span
+            >
+          </div>
+          <div class="mt-3">
+            <font-awesome-icon icon="fa-solid fa-envelope" class="me-1" />
+            <span class="fw-bold">Email: </span>
+            <a href="#" class="text-decoration-none mail"
+              >info.bannermanbuildco.uk</a
+            >
+          </div>
         </div>
+      </div>
     </div>
     <div class="container d-flex justify-content-center">
-        <span class="fs-3 text-center w-75 py-4 border-bottom border-dark">Where We Are
-        </span>
+      <span class="fs-3 text-center w-75 pb-4 border-bottom border-dark"
+        >Where We Are
+      </span>
     </div>
-    <div class="container d-flex justify-content-center mt-4 mb-5">
-        <!-- <img src="../assets/map-big.png" alt="" class="w-50"> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9693.836833853651!2d-2.115869!3d52.59747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48709bf545d26e97%3A0xfe88a5725ba57118!2s20%20Newport%20St%2C%20Wolverhampton%20WV10%209AQ%2C%20UK!5e0!3m2!1sen!2sin!4v1674043428753!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container d-flex justify-content-center mt-4 mb-5 w-75">
+      <!-- <img src="../assets/map-big.png" alt="" class="w-50"> -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9693.836833853651!2d-2.115869!3d52.59747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48709bf545d26e97%3A0xfe88a5725ba57118!2s20%20Newport%20St%2C%20Wolverhampton%20WV10%209AQ%2C%20UK!5e0!3m2!1sen!2sin!4v1674043428753!5m2!1sen!2sin"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
     <div class="bg-primary d-flex flex-column w-100 align-items-center pb-5">
-        <svg
+      <svg
         width="80"
         height="80"
         viewBox="0 0 161 130"
@@ -99,26 +122,35 @@
           fill="black"
         />
       </svg>
-      <RouterLink to="/" class="text-decoration-none mt-3 fs-5 text-white mail">Home</RouterLink>
-      <RouterLink to="/about" class="text-decoration-none mt-3 fs-5 text-white mail">About</RouterLink>
-      <RouterLink to="/services" class="text-decoration-none mt-3 fs-5 text-white mail">Services</RouterLink>
+      <RouterLink to="/" class="text-decoration-none mt-3 fs-5 text-white mail"
+        >Home</RouterLink
+      >
+      <RouterLink
+        to="/about"
+        class="text-decoration-none mt-3 fs-5 text-white mail"
+        >About</RouterLink
+      >
+      <RouterLink
+        to="/services"
+        class="text-decoration-none mt-3 fs-5 text-white mail"
+        >Services</RouterLink
+      >
     </div>
   </div>
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue"
-    export default {
-        name:"Contact",
-        components:{
-            Navbar,
-        },
-    }
+import Navbar from "../components/Navbar.vue";
+export default {
+  name: "Contact",
+  components: {
+    Navbar,
+  },
+};
 </script>
 
 <style>
-.mail:hover{
-    text-decoration: underline;
+.mail:hover {
+  text-decoration: underline;
 }
-
 </style>
