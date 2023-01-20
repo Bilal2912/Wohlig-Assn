@@ -11,7 +11,7 @@
     id="nav"
   >
     <div class="container-fluid">
-      <RouterLink class="mx-3 navbar-brand w-50" to="/">
+      <RouterLink class="mx-3 w-50" to="/">
         <svg
           width="70"
           height="70"
@@ -72,7 +72,7 @@
               </RouterLink>
               <button
                 type="button"
-                class="btn text-white dropdown-toggle dropdown-toggle-split border-0 ps-0"
+                class="btn text-white dropdown-toggle dropdown-toggle-split border-0 ps-md-0"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
