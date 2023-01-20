@@ -60,56 +60,6 @@
             >
           </li>
           <li class="nav-item dropdown fs-5 fw-semibold">
-            <!-- <RouterLink 
-            @click="openServices"
-              class="nav-link dropdown-toggle text-white text-center"
-              to="/services"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              SERVICES
-            </RouterLink>
-
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <RouterLink class="dropdown-item" to="/services/basements"
-                  >BASEMENTS</RouterLink
-                >
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/bathrooms"
-                  >BATHROOMS</RouterLink
-                >
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/builders">BUILDERS</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/extensions"
-                  >EXTENSIONS</RouterLink
-                >
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/groundworks"
-                  >GROUNDWORKS</RouterLink
-                >
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/kitchens">KITCHENS</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/loft-conversions"
-                  >LOFT CONVERSIONS</RouterLink
-                >
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/services/new-builds"
-                  >NEW BUILDS</RouterLink
-                >
-              </li>
-            </ul> -->
             <div class="d-flex justify-content-center">
               <RouterLink
                 class="nav-link text-white text-center"
@@ -122,7 +72,7 @@
               </RouterLink>
               <button
                 type="button"
-                class="btn text-white dropdown-toggle dropdown-toggle-split border-0"
+                class="btn text-white dropdown-toggle dropdown-toggle-split border-0 ps-0"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >

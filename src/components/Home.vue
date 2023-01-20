@@ -43,13 +43,13 @@ export default {
 .myicon:hover {
   color: #004784;
 }
-@media only screen and (min-width:1400px) {
-  .card{
+@media only screen and (min-width: 1400px) {
+  .card {
     height: 80%;
   }
 }
-@media only screen and (min-width:1200px) and (max-width:1400px) {
-  .card{
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .card {
     height: 90%;
   }
 }
@@ -122,7 +122,7 @@ export default {
   </div>
 
   <div class="container mt-lg-5 pt-lg-3 mt-4" style="height: 45rem">
-    <Header title="WHAT WE DO"/>
+    <Header title="WHAT WE DO" />
     <div class="row mt-3 justify-content-center">
       <div
         class="col-12 d-flex justify-content-end px-4 mb-2 d-none d-lg-flex"
@@ -167,7 +167,11 @@ export default {
                         Then look no further as you’ve come through to the right
                         place.
                       </p>
-                      <RouterLink to="/services/bathrooms" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/bathrooms"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -186,7 +190,11 @@ export default {
                         installing kitchens of all shapes and styles, to the
                         highest standards.
                       </p>
-                      <RouterLink to="/services/kitchens" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/kitchens"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -205,7 +213,11 @@ export default {
                         engineering services from foundation construction to
                         roads, drainage and even servicing.
                       </p>
-                      <RouterLink to="/services/groundworks" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/groundworks"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -229,7 +241,11 @@ export default {
                         ability within this sector is being called upon more and
                         more.
                       </p>
-                      <RouterLink to="/services/new-builds" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/new-builds"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -248,7 +264,11 @@ export default {
                         only the best builders in the industry to ensure the
                         quality of every project is of the very highest calibre.
                       </p>
-                      <RouterLink to="/services/builders" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/builders"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -268,7 +288,11 @@ export default {
                         to extend outward? Then a loft extension could be the
                         perfect choice for you.
                       </p>
-                      <RouterLink to="/services/loft-conversions" class="btn btn-primary">Service Details</RouterLink>
+                      <RouterLink
+                        to="/services/loft-conversions"
+                        class="btn btn-primary"
+                        >Service Details</RouterLink
+                      >
                     </div>
                   </div>
                 </div>
@@ -276,117 +300,190 @@ export default {
             </div>
           </div>
         </div>
-        
-        <div
-          id="carouselExampleControlsSmallScreen"
-          class="carousel slide d-block d-lg-none carousel-dark mt-3"
-          data-bs-ride="carousel "
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card1.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">BATHROOMS</h5>
-                    <p class="card-text fw-light">
-                      Are you looking for expert bathroom fitters? <br>
-                      Then look no further as you’ve come through to the right place.
-                    </p>
-                    <RouterLink to="/services/bathrooms" class="btn btn-primary">Service Details</RouterLink>
+
+        <div class="row">
+          <div
+            class="
+              col-2
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <font-awesome-icon
+              icon="fa-solid fa-caret-square-left"
+              class="fs-1 myicon"
+              type="button"
+              data-bs-target="#carouselExampleControlsSmallScreen"
+              data-bs-slide="prev"
+            />
+          </div>
+          <div class="col-8">
+            <div
+              id="carouselExampleControlsSmallScreen"
+              class="carousel slide d-block d-lg-none carousel-dark mt-3"
+              data-bs-ride="carousel "
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">BATHROOMS</h5>
+                        <p class="card-text fw-light">
+                          Are you looking for expert bathroom fitters? <br />
+                          Then look no further as you’ve come through to the
+                          right place.
+                        </p>
+                        <RouterLink
+                          to="/services/bathrooms"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card2.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">KITCHENS</h5>
-                    <p class="card-text fw-light">
-                      For years our expert team of kitchen fitters have been installing kitchens of all shapes and styles, to the highest standards.
-                    </p>
-                    <RouterLink to="/services/kitchens" class="btn btn-primary">Service Details</RouterLink>
+                <div class="carousel-item">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card2.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">KITCHENS</h5>
+                        <p class="card-text fw-light">
+                          For years our expert team of kitchen fitters have been
+                          installing kitchens of all shapes and styles, to the
+                          highest standards.
+                        </p>
+                        <RouterLink
+                          to="/services/kitchens"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card3.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">GROUNDWORKS</h5>
-                    <p class="card-text fw-light">
-                      We provide a full range of groundworks and civil engineering services from foundation construction to roads, drainage and even servicing.
-                    </p>
-                    <RouterLink to="/services/groundworks" class="btn btn-primary">Service Details</RouterLink>
+                <div class="carousel-item">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card3.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">GROUNDWORKS</h5>
+                        <p class="card-text fw-light">
+                          We provide a full range of groundworks and civil
+                          engineering services from foundation construction to
+                          roads, drainage and even servicing.
+                        </p>
+                        <RouterLink
+                          to="/services/groundworks"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card4.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">NEW BUILDS</h5>
-                    <p class="card-text fw-light">
-                      With the ever increasing demand for housing, new builds are becoming more and more common and as such, our ability within this sector is being called upon more and more.
-                    </p>
-                    <RouterLink to="/services/new-builds" class="btn btn-primary">Service Details</RouterLink>
+                <div class="carousel-item">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card4.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NEW BUILDS</h5>
+                        <p class="card-text fw-light">
+                          With the ever increasing demand for housing, new
+                          builds are becoming more and more common and as such,
+                          our ability within this sector is being called upon
+                          more and more.
+                        </p>
+                        <RouterLink
+                          to="/services/new-builds"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card5.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">BUILDERS</h5>
-                    <p class="card-text fw-light">
-                      At Bannerman Build Ltd, we pride ourselves on hiring only the best builders in the industry to ensure the quality of every project is of the very highest calibre.
-                    </p>
-                    <RouterLink to="/services/builders" class="btn btn-primary">Service Details</RouterLink>
+                <div class="carousel-item">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card5.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">BUILDERS</h5>
+                        <p class="card-text fw-light">
+                          At Bannerman Build Ltd, we pride ourselves on hiring
+                          only the best builders in the industry to ensure the
+                          quality of every project is of the very highest
+                          calibre.
+                        </p>
+                        <RouterLink
+                          to="/services/builders"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="cards-wrapper d-flex justify-content-center">
-                <div class="card mx-3" style="width:28rem">
-                  <img src="../assets/card6.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">LOFT CONVERSIONS</h5>
-                    <p class="card-text fw-light">
-                      With the ever increasing demand for housing are you looking for that extra room but don’t have the ability to extend outward? Then a loft extension could be the perfect choice for you.
-                    </p>
-                    <RouterLink to="/services/loft-conversions" class="btn btn-primary">Service Details</RouterLink>
+                <div class="carousel-item">
+                  <div class="cards-wrapper d-flex justify-content-center">
+                    <div class="card mx-3" style="width: 28rem">
+                      <img
+                        src="../assets/card6.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">LOFT CONVERSIONS</h5>
+                        <p class="card-text fw-light">
+                          With the ever increasing demand for housing are you
+                          looking for that extra room but don’t have the ability
+                          to extend outward? Then a loft extension could be the
+                          perfect choice for you.
+                        </p>
+                        <RouterLink
+                          to="/services/loft-conversions"
+                          class="btn btn-primary"
+                          >Service Details</RouterLink
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControlsSmallScreen"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
+          <div class="col-2 d-flex justify-content-center align-items-center">
+          <font-awesome-icon
+            icon="fa-solid fa-caret-square-right"
+            class="fs-1 ms-2 myicon"
             type="button"
             data-bs-target="#carouselExampleControlsSmallScreen"
             data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          />
+        </div>
         </div>
       </div>
     </div>
